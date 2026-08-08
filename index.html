@@ -4,51 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alien-Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="image">
     </div>
     <div id="content">
-        <header>
-        </header>
+        <summary>
+            <p>
+                This is not a real online service! Aliens are not on earth or anyhere where they could see this Website!
+                But if you are one, feel free to become a legal member of earth on this website.
+                Sign up <em>now</em> to get started.            
+            </p>
+            <p>You <em>know</em> you want to.</p>
+        </summary>
         <form action="" method="get">
-            <header>
-                <h1>Sign Up on Earth</h1>
-            </header>
             <main>
+                <h1>Sign Up on Earth</h1>
                 <div id="fname" class="input">
-                    <label for="fname">FIRST NAME</label>
-                    <input placeholder="Bob" type="text" name="fname" id="fname">
+                    <label for="fname">FIRST NAME *</label>
+                    <input required placeholder="Bob" type="text" name="fname" id="fname">
                 </div>
                 <div id="lname" class="input">
-                    <label for="lname">LAST NAME</label>
-                    <input placeholder="Meyer" type="text" name="lname" id="lname">
+                    <label for="lname">LAST NAME *</label>
+                    <input required placeholder="Meyer" type="text" name="lname" id="lname">
                 </div>
                 <div id="home-planet" class="input"> 
-                    <label for="home-planet">HOME PLANET</label>
-                    <input placeholder="Earth" type="text" name="home-planet" id="home-planet">
+                    <label for="home-planet">HOME PLANET *</label>
+                    <input required placeholder="Earth" type="text" name="home-planet" id="home-planet">
                 </div>
                 <div id="expected-age" class="input"> 
                     <label for="expected-age">AVERAGE AGE OF DEATH</label>
                     <input placeholder="100" type="number" min="5" max="1000" step="5" name="expected-age" id="expected-age">
                 </div>
                 <div id="spaceship-id" class="input"> 
-                    <label for="spaceship-id">SPACESHIP ID</label>
-                    <input type="password" name="spaceship-id" id="spaceship-id">
+                    <label for="spaceship-id">SPACESHIP ID *</label>
+                    <input required type="password" name="spaceship-id" id="spaceship-id">
                 </div>
                 <div id="conf-spaceship-id" class="input"> 
-                    <label for="conf-spaceship-id">CONFIRM SPACESHIP ID</label>
-                    <input type="password" name="conf-spaceship-id" id="conf-spaceship-id">
+                    <label for="conf-spaceship-id">CONFIRM SPACESHIP ID *</label>
+                    <input required type="password" name="conf-spaceship-id" id="conf-spaceship-id">
                 </div>
             </main>
             <footer>
                 <button>Create Account</button>
-                <p>
+                
+            </footer>
+        </form>
+        <footer>
+            <p>
                     Already have an account?
                     <a href="">Log in</a>
                 </p>
-            </footer>
-        </form>
+        </footer>
     </div>
 </body>
 </html>

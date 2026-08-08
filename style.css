@@ -28,6 +28,29 @@
     background-color: #050505;
 }
 
+
+#title *{
+    background-color: transparent;
+}
+
+#title{
+    background-color: rgba(0, 0, 0, 0.621);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex: auto;
+    margin-top: 300px;
+    align-items: center;
+}
+
+#title h1{
+    font-size: 64px;
+    padding-left: 20px;
+    font-family: "Astroz";
+    letter-spacing: 5px;
+}
+
+
 summary p{
     max-width: 75ch;
     padding: 0px 64px 32px;

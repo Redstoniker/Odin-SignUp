@@ -159,3 +159,15 @@ button:focus{
     background-color: #154147;
     color: white;
 }
+
+footer p{
+    margin-left: 64px;
+}
+
+footer p a{
+    color: #85e0ec;
+}
+
+footer p a:visited{
+    color: #85e0ec;
+}

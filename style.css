@@ -24,6 +24,8 @@
     line-height: 1.5em;
     box-sizing: border-box;
     font-family: "Konect";
+    color: white;
+    background-color: #050505;
 }
 
 form main h1{
@@ -32,18 +34,22 @@ form main h1{
     font-size: 50px;
     font-family: "Astroz";
     letter-spacing: 5px;
+    background-color: black;
 }
 
 body{
     display: flex;
     height: 100vh;
     justify-content: flex-end;
+    background-image: url(images/space.jpg);
+    background-size: 720px;
 }
 
 #content{
     display: flex;
     flex-direction: column;
     width: 1200px;
+    justify-content: center;
 }
 
 form{
@@ -56,11 +62,11 @@ form main{
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
-    background-color: white;
+    background-color: black;
     height: 350px;
     align-items: center;
     padding-bottom: 32px;
-    box-shadow: 0px 13px 5px -5px rgb(204, 203, 203);
+    margin-bottom: 20px;
 }
 
 form main div{
@@ -70,19 +76,72 @@ form main div{
     flex-wrap: wrap;
     justify-content: flex-start;
     max-width: 400px;
+    background-color: black;
 }
 
 
 #content{
-    background-color: rgb(247, 247, 247);
+    background-color: #050505;
 }
 
 .input label{
     font-size: 14px;
+    font-family: "Alenia";
+    background-color: black;
+}
+
+.input label p{
+    display: inline;
+    font-size: 16px;
+    font-family: "Konect";
+    background-color: black;
 }
 
 .input input{
     width: 350px;
-    max-height: 32px;
+    max-height: 40px;
     padding-left: 4px;
+    background-color: #050505;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
+}
+
+.input input::placeholder{
+    color: #154147;
+}
+
+.input input:user-invalid{
+    border-color: #580707;
+    color: #b81212
+}
+
+.input input:user-valid{
+    border-color: #154147;
+}
+
+.input input:focus{
+    border-color: #6ad6e4;
+    outline: none;
+}
+
+button{
+    background-color: #6ad6e4;
+    color: black;
+    font-family: "Alenia";
+    padding: 8px 16px;
+    margin: 20px 64px;
+    border: none;
+    border-radius: 100em;
+}
+
+button:hover{
+    background-color: #85e0ec;
+    cursor: pointer;
+}
+
+button:focus{
+    background-color: #154147;
+    color: white;
 }

@@ -1,20 +1,43 @@
+@font-face {
+  font-family: "Alenia";
+  src:
+    url("fonts/Alenia.woff2");
+    url("fonts/Alenia.woff");
+}
+@font-face {
+  font-family: "Astroz";
+  src:
+    url("fonts/Astroz Trial.woff2");
+    url("fonts/Astroz Trial.woff");
+}
+@font-face {
+  font-family: "Konect";
+  src:
+    url("fonts/KonectDemo-Regular.woff2");
+    url("fonts/KonectDemo-Regular.woff");
+}
+
 *{
     margin: 0;
     padding: 0;
     font-size: 16px;
     line-height: 1.5em;
     box-sizing: border-box;
+    font-family: "Konect";
 }
 
 form main h1{
     width: 100%;
     margin-left: 64px;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: "Astroz";
+    letter-spacing: 5px;
 }
 
 body{
     display: flex;
     height: 100vh;
+    justify-content: flex-end;
 }
 
 #content{
@@ -37,6 +60,7 @@ form main{
     height: 350px;
     align-items: center;
     padding-bottom: 32px;
+    box-shadow: 0px 13px 5px -5px rgb(204, 203, 203);
 }
 
 form main div{
@@ -50,7 +74,7 @@ form main div{
 
 
 #content{
-    background-color: grey;
+    background-color: rgb(247, 247, 247);
 }
 
 .input label{
